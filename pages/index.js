@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react';
 import Image from "next/image"
 import Link from "next/link"
 import Structure from "../components/Structure"
-import useDebounce from '../hooks/useDebounce';
-import usePokemonTypes from "../hooks/usePokemonTypes";
+import useDebounce  from '../Hooks/useDebounce';
+import usePokemonTypes from "../Hooks/usePokemonTypes";
 
 export default function Home({ pokemonList }) {
   // const [pokemonList, setPokemonList] = useState([]);
